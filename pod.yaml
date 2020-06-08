@@ -1,0 +1,12 @@
+apiVersion: v1 
+kind: Pod
+metadata: 
+ name: my-app-pod
+ labels: 
+    app: myapp
+    type: frontend
+    location: EMEA
+spec:
+  containers:
+    - name: my-app
+      image: nginx 
